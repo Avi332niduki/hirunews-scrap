@@ -41,7 +41,13 @@ npm i hirunews-scrap
 ## 🎈 Usage <a name="usage"></a>
 
 ```ts
-const { BreakingNews, MainNews, TrendingNews, InternationalNews } = require('hirunews-scrap');
+const { BreakingNews,
+        MainNews,
+        TrendingNews,
+        InternationalNews,
+        SportNews,
+        EntertainmentNews,
+        BusinessNews } = require('hirunews-scrap');
 
 async function HiruNewsData() {
     
