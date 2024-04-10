@@ -1,13 +1,13 @@
-const { BusinessNews } = require('./index');
-
-async function HiruNewsData() {
+const Hiru = require('./index');
+const api = new Hiru()
+async function News() {
     try {
-        const BusinessNewsData = await BusinessNews();
-        console.log(BusinessNewsData);
+        const News = await api.BreakingNews();
+        console.log(News);
        
     } catch (error) {
-        console.error('Error getting breaking news data:', error.message);
+        console.error('Error getting Breaking News data:', error.message);
     }
 }
 
-HiruNewsData();
+News();

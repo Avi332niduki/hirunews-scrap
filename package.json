@@ -1,0 +1,32 @@
+{
+  "name": "hirunews-scrap",
+  "version": "1.0.8",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "author": "OminduAnjana",
+  "description": "unofficial scrap for hiru news",
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OminduAnjane/hirunews-scrap.git"
+  },
+  "keywords": [
+    "hirunews",
+    "hirunews-api",
+    "hiru",
+    "news",
+    "OminduAnjana",
+    "HiruNews",
+    "nexhackers"
+  ],
+  "bugs": {
+    "url": "https://github.com/OminduAnjane/hirunews-scrapissues"
+  },
+  "homepage": "https://github.com/OminduAnjane/hirunews-scrap#readme"
+}
