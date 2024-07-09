@@ -19,7 +19,7 @@
 <p align="center"> The unofficial scrap Hiru News
     <br> 
 </p>
-<p align="center"> unofficial scrap for hiru news This was coded by Omindu Anjana. News given here https://www.hirunews.lk/ belongs to this website. If possible, donate some amount. I am still an A/L student studying at Mo/Nishshanka National School. <br> </p>
+<p align="center"> This unofficial scratch code for Hiru News is by Omindu Anjana. The news given here belongs to this website https://www.hirunews.lk/. I am a 1st year university student studying BSc(Hons) Software Engineering Degree at Java Institute For Advanced Technology. <br> </p>
 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
@@ -46,8 +46,20 @@ const Hiru = require('hirunews-scrap');
 
 const api = new Hiru()
 ```
+
+## 🎈React-native Usage <a name="usage"></a>
+
+```ts
+
+
+import Hiru from 'hirunews-scrap';
+
+const api = new Hiru();
+```
+
 ## Get Latest Breaking News
 ```ts
+
 const News = await api.BreakingNews();
 console.log(News);
 ```
@@ -59,7 +71,7 @@ console.log(News);
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    Group: 'CyberNex Group'
+    Group: 'Nex Group'
   },
   results: {
     title: 'රුසියානු - යුක්‍රේන සංචාරකයින් ගැන මහජන ආරක්ෂක අමාත්‍යාංශයෙනුත් පැහැදිලි කිරීමක්',
@@ -99,7 +111,7 @@ console.log(News);
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    group: 'CyberNex Group'
+    group: 'Nex Group'
   },
   results: {
     title: 'ප්‍රදේශ කිහිපයක කාලගුණයේ තාවකාලික වෙනසක්',
@@ -132,7 +144,7 @@ console.log(News);
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    group: 'CyberNex Group'
+    group: 'Nex Group'
   },
   results: {
     title: 'ප්‍රදේශ කිහිපයක කාලගුණයේ තාවකාලික වෙනසක්',
@@ -165,7 +177,7 @@ console.log(News);
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    group: 'CyberNex Group'
+    group: 'Nex Group'
   },
   results: {
     title: 'දුර්ලභ කැස්බෑ විශේෂයක් ඉන්දියාවෙන් හමුවෙයි',
@@ -199,7 +211,7 @@ console.log(News);
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    group: 'CyberNex Group'
+    group: 'Nex Group'
   },
   results: {
     title: 'ජයග්‍රාහණය ගැන සධීර හේතු කියයි',
@@ -227,7 +239,7 @@ console.log(News);
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    group: 'CyberNex Group'
+    group: 'Nex Group'
   },
   results: {
     title: 'දීපිකා පදුකෝන් මව් පදවියට සැරසෙයි',
@@ -257,7 +269,7 @@ console.log(News);
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    group: 'CyberNex Group'
+    group: 'Nex Group'
   },
   results: {
     title: 'ශ්‍රී ලංකා ඉන්ෂුවරන්ස් 2022 Star Awards උළෙලේ දී සිය විකුණුම් බලකායේ විශිෂ්ට ජයග්‍රහණ අගයයි',
@@ -304,7 +316,7 @@ News();
   code_creator: {
     name: 'Omindu_Anjana',
     github: '@OminduAnjana',
-    group: 'CyberNex Group'
+    group: 'Nex Group'
   },
   results: {
     title: 'ප්‍රදේශ කිහිපයක කාලගුණයේ තාවකාලික වෙනසක්',
